@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sky Studio Co - Luxury Barber Experience</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Helvetica Neue', sans-serif;
+            background-color: #0d0d0d;
+            color: #f5f5f5;
+        }
+        header {
+            background-color: #0b0b0b;
+            text-align: center;
+            padding: 2rem 1rem;
+            border-bottom: 2px solid #c9a14a;
+        }
+        header h1 {
+            font-size: 2.5rem;
+            letter-spacing: 2px;
+            color: #c9a14a;
+            margin: 0;
+        }
+        header p {
+            font-size: 1.2rem;
+            color: #ccc;
+        }
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 2rem;
+        }
+        h2 {
+            color: #c9a14a;
+            border-bottom: 1px solid #c9a14a;
+            padding-bottom: 0.5rem;
+            margin-bottom: 1rem;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 2rem;
+        }
+        th, td {
+            padding: 1rem;
+            text-align: left;
+            border-bottom: 1px solid #333;
+        }
+        th {
+            color: #c9a14a;
+            font-size: 1.1rem;
+        }
+        tr:hover {
+            background-color: rgba(201, 161, 74, 0.1);
+        }
+        .contact {
+            background-color: #111;
+            padding: 2rem;
+            border-radius: 10px;
+            margin-top: 2rem;
+        }
+        .contact h3 {
+            color: #c9a14a;
+        }
+        .contact form {
+            display: flex;
+            flex-direction: column;
+        }
+        .contact input, .contact textarea {
+            padding: 0.8rem;
+            margin: 0.5rem 0;
+            border: none;
+            border-radius: 5px;
+        }
+        .contact button {
+            background-color: #c9a14a;
+            color: #000;
+            padding: 0.8rem;
+            border: none;
+            font-weight: bold;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: 0.3s;
+        }
+        .contact button:hover {
+            background-color: #e6b84d;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #0b0b0b;
+            color: #888;
+            font-size: 0.9rem;
+            margin-top: 2rem;
+        }
+        .social-icons img {
+            width: 30px;
+            margin: 0 10px;
+            filter: brightness(0) invert(1);
+            transition: 0.3s;
+        }
+        .social-icons img:hover {
+            filter: brightness(1) invert(0);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Sky Studio Co</h1>
+        <p>Luxury Barbering Experience</p>
+    </header>
+
+    <div class="container">
+        <h2>Price List</h2>
+        <table>
+            <tr><th colspan="2">Mens Cut</th></tr>
+            <tr><td>Clippers Cut</td><td>$30</td></tr>
+            <tr><td>Standard Cut</td><td>$40</td></tr>
+            <tr><td>Zero Fade</td><td>$50</td></tr>
+            <tr><td>Skin Fade (Foils)</td><td>$55</td></tr>
+            <tr><td>Restyle Long to Short</td><td>$60</td></tr>
+
+            <tr><th colspan="2">Packages</th></tr>
+            <tr><td>Clipper Cut + Beard</td><td>$50</td></tr>
+            <tr><td>Standard Cut + Beard</td><td>$60</td></tr>
+            <tr><td>Fade + Beard</td><td>$70</td></tr>
+
+            <tr><th colspan="2">Teens Cut</th></tr>
+            <tr><td>Kids U/6</td><td>$30</td></tr>
+            <tr><td>Student U/16</td><td>$38</td></tr>
+            <tr><td>Fade</td><td>$45</td></tr>
+            <tr><td>Add Designs</td><td>$5</td></tr>
+
+            <tr><th colspan="2">Beard</th></tr>
+            <tr><td>Beard Trim & Line Up</td><td>$30</td></tr>
+            <tr><td>Wet Shave</td><td>$35</td></tr>
+            <tr><td>Beard</td><td>$35</td></tr>
+            <tr><td>The Lot</td><td>$65</td></tr>
+        </table>
+
+        <div class="contact">
+            <h3>Contact Us</h3>
+            <form>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+
+        <div class="social-icons" style="text-align:center; margin-top:20px;">
+            <a href="https://instagram.com/skystudioco" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram"></a>
+            <a href="https://facebook.com/skystudioco" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook"></a>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2025 Sky Studio Co | All Rights Reserved
+    </footer>
+</body>
+</html>
